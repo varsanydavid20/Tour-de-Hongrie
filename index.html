@@ -96,18 +96,18 @@
 
   <h2 class="display-5" id="sikereink">Magyar sikerek</h2> 
   <div class="row">  
-    <div class="col-lg-5">
+    <div class="col-lg-4">
       <p>A körverseny több mint kilenc évtizedes története során a hazai kerékpárosok szerezték meg a legtöbb győzelmet, tizenkilenc alkalommal nyert magyar versenyző az összetettben. Négyszer osztrák, háromszor szlovák, kétszer német, olasz, illetve ukrán kerekes vitte haza a fődíjat, egy-egy alkalommal győzött Oroszország, Ukrajna, Svájc, Franciaország, Hollandia, Jugoszlávia, Luxemburg, Észtország,  Kolumbia vagy Lettország versenyzője.</p>
     </div>
-    <div class="col-lg-2">
+    <div class="col-lg-4">
       <img src="kepek/cimvedo2020.jpg" class="kiskep" alt="Valter Attila címvédő" title="Valter Attila címvédő">
       <p class="kepfelirat">2020-as győztes: Valter Attila</p>
     </div>
-    <div class="col-lg-5">
+    <div class="col-lg-4">
       <h3>Időszalag</h3>
       <form>
         <p>A versenysorozat dobogósai:</p>
-        <input type="range" class="form-control-range" id="verseny" value="41">
+        <input type="range" class="form-control-range" id="verseny" value="41" min="1" max="41" onchange="frissit()" >
         <strong><span id="sorszam">41</span>. Tour de Hongrie győztesei:</strong>
         <ol>
           <li><p id="hely1"><strong>Valter Attila (HUN)<br>18:45:55</strong></p></li>
