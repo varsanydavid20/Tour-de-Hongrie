@@ -56,4 +56,5 @@ function frissit(){
     document.getElementById('hely1').innerHTML = listaelem(gyoztesek[sorsz].split(";")[0]); 
     document.getElementById('hely2').innerHTML = listaelem(gyoztesek[sorsz].split(";")[1]); 
     document.getElementById('hely3').innerHTML = listaelem(gyoztesek[sorsz].split(";")[2]); 
+    document.getElementById('sorszam').innerText = sorsz;
 }
